@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+   
+     border: 2px solid rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+html{
+    font-size: 100%;
+}
+#text{
+   
+    margin-left: 0px;
+    margin-right: 0px;
+  
+   
+
+}
+
+input[type='button']{
+   background-color: rgb(249, 251, 249);
+   color: rgb(0, 0, 0);
+   font-weight: 200;
+   border: 0;
+   outline: 0;
+   /* width: 30px;
+   height: 25px; */
+   border-radius: 5px;
+   box-shadow: 2px 2px 3px 0.5px rgb(198, 198, 198);
+   cursor: pointer;
+   padding: 1.5rem;
+   font-size: 2rem;
+
+   }
+
+
+
+  
+   
+ 
+   
+
+   
+
+
+input[type='text']{
+    color: black;
+    background-color: rgb(245, 243, 251);
+    
+    border: 0;
+    outline: 0;
+   
+    border-radius: 5px;
+    box-shadow:inset -1px -1px rgb(230, 229, 229);
+    font-size: 2.2rem;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: right;
+    height: 4rem;
+
+   
+
+  
+    
+    
+    
+}
+
+ /* body{
+    border: 2px solid rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255); 
+   
+}  */
+   
+
+    
+    
+
+
+#equal {
+   background-color: rgb(84, 2, 155);
+   color: white;
+   border: 1px solid rgb(104, 0, 202);
+   border-radius: 5px;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+   font-size: 2rem;
+   font-weight: bold;
+  
+}
+
+#x{
+   background-color:rgb(238, 226, 238);
+   border: none;
+   outline: none;
+   color: rgb(134, 4, 255);
+   font-size: 2rem;
+   border-radius: 5px;
+   
+   font-weight: bold;
+  
+  
+}
+
+
+#minus,#divide{
+    
+   background-color:rgb(238, 226, 238);
+   border: none;
+   outline: none;
+  color: rgb(134, 4, 255);
+   font-size: 2rem;
+   border-radius: 5px;
+  
+   font-weight: bold;
+  
+}
+#plus {
+ background-color:rgb(238, 226, 238);
+   border: none;
+   outline: none;
+  color: rgb(134, 4, 255);
+   font-size: 2rem;
+   border-radius: 5px;
+
+   font-weight: bold;
+  
+}
+#clear{
+    color: red;
+    background-color: rgb(254, 214, 214);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+label{
+   
+  display: grid;                  
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;                     
+}
+
